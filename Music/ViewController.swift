@@ -12,49 +12,39 @@ import AVFoundation
 class ViewController: UIViewController, AVAudioPlayerDelegate {
     var player:AVAudioPlayer = AVAudioPlayer()
     
+    
     func audioPlayerDidFinishPlaying(player: AVAudioPlayer!, successfully flag: Bool) {
         
         println("done")
         
         
     }
+    
                             
     @IBAction func player(sender : AnyObject) {
-        
-        var audioPath = NSString(string: NSBundle.mainBundle().pathForResource("bach1", ofType: "mp3")!)
-        
-        println(audioPath)
-        
-        var error : NSError? = nil
-        player = AVAudioPlayer(contentsOfURL: NSURL(string: audioPath), error: &error)
-        
-        if ((error) != nil)
-        {
-                println("Error")
-        }
-        else
-        {
             player.play()
-        }
-        
-        
-        
        
     }
     
     @IBAction func pause(sender : AnyObject) {
         player.pause()
     }
-    @IBOutlet var pause : UIButton!
+    @IBAction func Stop(sender: AnyObject) {
+        player.stop()
+        player.currentTime = 0
+    }
+    
     @IBOutlet var volumeSlider : UISlider!
-    
-    
-    @IBAction func volumeChanged(sender : AnyObject) {
+     @IBAction func volumeChanged(sender : AnyObject) {
         player.volume = volumeSlider.value
         
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        var audioPath = NSString(string: NSBundle.mainBundle().pathForResource("bach1", ofType: "mp3")!)
+        
+        var error : NSError? = nil
+        player = AVAudioPlayer(contentsOfURL: NSURL(string: audioPath), error: &error)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
