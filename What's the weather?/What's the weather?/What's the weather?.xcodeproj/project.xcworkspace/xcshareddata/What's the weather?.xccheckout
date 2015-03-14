@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3AC3E43E-E57E-42E2-9753-3F5012D056F0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>What's the weather?</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F8936BCCAB8FCF9E6E5E3A11045E2EED5416C6EF</key>
+		<string>https://github.com/perfect269/Swift-example.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>What's the weather?/What's the weather?/What's the weather?.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F8936BCCAB8FCF9E6E5E3A11045E2EED5416C6EF</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/perfect269/Swift-example.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F8936BCCAB8FCF9E6E5E3A11045E2EED5416C6EF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F8936BCCAB8FCF9E6E5E3A11045E2EED5416C6EF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Swift-example</string>
+		</dict>
+	</array>
+</dict>
+</plist>
